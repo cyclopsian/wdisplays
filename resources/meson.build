@@ -36,9 +36,12 @@ if scour.found()
       '@INPUT@', '@OUTPUT@'],
       install: true,
       install_dir: icondir)
-  else
-install_data(icon, install_dir: icondir)
-  endif
+else
+  install_data(icon,
+    rename: '@0@.svg'.format(meson.project_name()),
+    install_dir: icondir
+  )
+endif
 
 install_data(
     configure_file(input: 'wdisplays.desktop.in',
