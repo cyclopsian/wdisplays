@@ -132,7 +132,7 @@ void window_map(GtkWidget *widget, gpointer data) {
       &layer_surface_listener, output);
 
   zwlr_layer_surface_v1_set_anchor(output->overlay_layer_surface,
-      ZWLR_LAYER_SURFACE_V1_ANCHOR_TOP |
+      ZWLR_LAYER_SURFACE_V1_ANCHOR_BOTTOM |
       ZWLR_LAYER_SURFACE_V1_ANCHOR_LEFT);
 
   resize(output);
