@@ -10,8 +10,9 @@ This project tries to adhere to [Semantic Versioning][2].
 
 ### Added
 
-Ignore QtCreator files (redtide)
-Added .editorconfig and .clang-format (redtide)
+Added QtCreator files to .gitignore (redtide)
+.editorconfig and .clang-format (redtide)
+this file (redtide)
 
 ### Changed
 
