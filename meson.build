@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: CC0-1.0
 
 project('network.cycles.wdisplays', 'c',
-  license: 'MIT',
+  license: 'GPL-3.0-or-later',
   version: '1.1.1'
 )
 
