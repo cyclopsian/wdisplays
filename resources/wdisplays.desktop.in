@@ -1,8 +1,12 @@
 [Desktop Entry]
-Version=@version@
 Type=Application
-Name=wdisplays
-Comment=Wlroots display configuration
 Categories=GTK;Settings;DesktopSettings;
 Exec=wdisplays
 Icon=@app_id@
+
+Name=Displays
+GenericName=Displays configuration
+Comment=wlroots displays configuration
+Name[it]=Schermi
+GenericName[it]=Impostazioni degli schermi
+Comment[it]=Impostazioni degli schermi per wlroots
