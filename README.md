@@ -20,7 +20,7 @@ Check your distro for a `wdisplays` package. Known distro packages:
 - [Alpine](https://pkgs.alpinelinux.org/package/edge/testing/x86_64/wdisplays)
 - [Arch](https://aur.archlinux.org/packages/wdisplays-git/)
 - [Debian](https://packages.debian.org/sid/wdisplays)
-- [Fedora](https://copr.fedorainfracloud.org/coprs/wef/wdisplays/)
+- [Fedora](https://packages.fedoraproject.org/pkgs/wdisplays/wdisplays)
 - [FreeBSD](https://svnweb.freebsd.org/ports/head/x11/wdisplays/)
 - [Nix](https://github.com/NixOS/nixpkgs/tree/master/pkgs/tools/graphics/wdisplays)
 - [OpenSUSE](https://build.opensuse.org/package/show/home%3AMWh3/wdisplays)
