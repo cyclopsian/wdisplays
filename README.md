@@ -70,7 +70,8 @@ It's intended to be the Wayland equivalent of an xrandr GUI, like [ARandR].
 Sway, like i3, doesn't save any settings unless you put them in the config
 file. See man `sway-output`. If you want to have multiple configurations
 depending on the monitors connected, you'll need to use an external program
-like [kanshi]. Integration with that and other external daemons is planned.
+like [kanshi] or [way-displays]. Integration with that and other external
+daemons is planned.
 
 ### How do I add support to my compositor?
 
@@ -79,6 +80,7 @@ get support for this in wlroots compositors. See the diff here for a sample
 implementation on top of tinywl: [tinywl-output-management].
 
 [kanshi]: https://github.com/emersion/kanshi
+[way-displays]: https://github.com/alex-courtis/way-displays
 [Sway]: https://swaywm.org
 [Wayfire]: https://wayfire.org
 [ARandR]: https://christian.amsuess.com/tools/arandr/
